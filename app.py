@@ -3,8 +3,8 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-# Load the fine‑tuned model (adjust path if needed)
-model = tf.keras.models.load_model("model/O_R_tlearn_fine_tune_vgg16.keras")
+# Load the fine‑tuned model (now from root directory)
+model = tf.keras.models.load_model("O_R_tlearn_fine_tune_vgg16.keras")
 
 # Class names
 CLASS_NAMES = ["Organic (O)", "Recyclable (R)"]
